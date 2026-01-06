@@ -1,0 +1,353 @@
+/* контент хэсэг дүрс */
+@media only screen and (max-width: 1024px)
+{
+.content-section-icon
+{            
+      width: 100%;
+      height: auto;      
+}
+.content-section-icon
+.container
+{
+      max-width: 100%;
+}
+.content-section-icon
+.column-item
+{          
+      height: 350px;
+      padding-top: 5px;
+      justify-content: center;      
+}
+.content-section-icon
+.column-span
+{          
+      width: 300px;
+      padding: 10px 10px;      
+}
+.content-section-icon
+img
+{         
+      width: 25px;
+      height: 25px;
+}
+.content-section-icon
+.column-head
+{
+      font-size: 11px;      
+}
+.content-section-icon
+.column-paragraph
+{         
+      font-size: 12px;      
+}
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1910px) and (orientation: landscape)
+{
+
+.content-section-icon
+.column-span
+{          
+      padding: 10px 15px;
+}
+}
+
+
+
+/* контент хэсэг спан */
+@media only screen and (max-width: 1024px)
+{
+.content-section-span
+{
+      width: 100%;
+      height: auto;
+}      
+.content-section-span
+.span-box
+{
+      width: 100%;
+      height: 100px; 
+}
+.content-section-span
+h5
+{     
+      padding: 0 5px;     
+      font-size: 12px;      
+}
+.content-section-span
+p
+{                
+      padding: 0 5px; 
+      font-size: 12px;
+}
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1910px) and (orientation: landscape) 
+{
+.content-section-span
+.container
+{                
+      max-width: 90%;
+}      
+.content-section-span
+.span-box
+{      
+      height: 90px;
+}
+}
+
+
+
+/* контент хэсэг хөзөр */
+@media only screen and (max-width: 1024px)
+{
+.content-section-card
+.card-container
+{
+      width: 100%;       
+      height: 250px;
+}
+.content-section-card
+.card-box
+{        
+      width: 100%;
+      height: 300px;
+}
+.content-section-card
+.card-background 
+{      
+      height: 300px;
+      padding: 0 0px;
+      border-radius: 0;
+}
+}
+
+
+
+
+/* контент хэсэг сэдэв */
+@media only screen and (max-width: 1024px)
+{
+.content-section-context
+{      
+      width: 100%;
+      height: 800px;      
+}      
+.content-section-context
+.container
+{
+      height: auto;
+      max-width: 95%;
+}
+.content-section-context
+h5
+{
+      font-size: 12px;      
+}
+.content-section-context
+p
+{      
+      width: 90%;           
+      line-height: 20px;
+}
+}
+
+
+
+/* контент хэсэг гарчиг */
+@media only screen and (max-width: 1024px)
+{
+.content-section-article
+{            
+      width: 100%;    
+      height: 500px;          
+      margin: 0 auto;
+}
+.content-section-article
+.container
+{
+      max-width: 100%;
+}
+.content-section-article
+.article-context::-webkit-scrollbar 
+{      
+      display: none;
+}
+.content-section-article
+.article-context
+{      
+      width: 100%;
+      height: 400px;      
+}
+.content-section-article
+.article-a
+{      
+      width: 100%;      
+      float: none;
+      height: auto;            
+}
+.content-section-article
+h4
+{      
+      font-size: 12px;      
+      padding-left: 0;
+}
+.content-section-article
+.article-a
+img
+{                
+      float: left;
+      width: 150px;
+      height: 200px;
+      margin-top: 0;      
+      padding-left: 0;
+      border-radius: 5px;      
+}
+.content-section-article
+.article-b
+{      
+      width: 100%;      
+      height: auto;            
+}
+.content-section-article
+.article-b
+img
+{           
+      width: 150px;
+      margin: 5px 0;
+      height: 200px;      
+      border-radius: 0 0 5px 5px;      
+}
+.content-section-article
+.article-c
+{
+      width: 100%;
+      height: 100%;             
+}
+.content-section-article
+.article-d
+{
+      width: 100%;
+      height: auto;
+}
+.content-section-article
+h5
+{     
+      padding-top: 10px;      
+}
+.content-section-article
+p
+{
+      font-size: 12px;      
+}
+.content-section-article
+hr
+{
+      width: 100%;
+}
+}
+@media only screen and (min-device-width: 700px) and (max-device-width: 1800px)
+{
+.content-section-article
+h4
+{      
+      font-size: 16px;      
+      padding-left: 10px;
+}      
+.content-section-article
+.article-a
+{
+      height: auto;            
+}
+.content-section-article
+.article-b
+{
+      height: auto;            
+}   
+.content-section-article
+.article-a
+img
+{          
+      width: 250px;
+      height: 250px;
+}      
+.content-section-article
+.article-b
+img
+{                  
+      width: 250px;
+      height: 250px;
+}
+.content-section-article
+.article-c
+{
+      width: 100%;
+      height: 250px;      
+      background-size: cover;
+}  
+.content-section-article
+h5
+{
+      font-size: 10px;           
+      margin-top: 50px;      
+}
+.content-section-article
+p
+{
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 30px;
+}
+.content-section-article
+hr
+{
+      width: 10%;
+}
+}
+
+
+
+/* контент хэсэг тэмдэглэл */
+@media only screen and (max-width: 1024px)
+{
+.content-section-quote
+{
+      width: 100%;
+      height: auto;
+      margin-top: 0;
+      background-color: #f2f2f2;
+}      
+.content-section-quote
+.quote-container
+{         
+      max-width: 100%;
+}
+.content-section-quote
+.quote-box
+{
+      width: 100%;
+      height: auto;
+      padding-top: 20px;  
+}
+.content-section-quote
+.quote-item
+{
+      width: 100%;            
+}
+.content-section-quote
+img
+{           
+      width: 30px;
+      height: 30px;                  
+}
+.content-section-quote
+.button-next
+{      
+      left: -5px;
+      bottom: 50px;
+}
+.content-section-quote
+.button-prev
+{      
+      right: 5px;
+      bottom: 50px;
+}
+}

@@ -1,0 +1,449 @@
+/* контент хэсэг хураангүй */
+@media only screen and (max-width: 1024px)
+{
+.content-section-thumbnail
+{
+      width: 100%;
+      height: 300px;          
+}      
+.content-section-thumbnail
+.container
+{
+      max-width: 100%;
+}
+.content-section-thumbnail
+.thumbnail-background
+{          
+      max-width: 100%;      
+}      
+.content-section-thumbnail
+img
+{
+      width: 100%;
+      height: 250px;              
+      object-fit: cover;                
+}
+.content-section-thumbnail
+h5
+{          
+      left: 10px;
+      bottom: 130px;
+      font-size: 12px;    
+}
+.content-section-thumbnail
+h6
+{                    
+      font-size: 10px;              
+}
+}
+
+
+
+/* контент хэсэг спан */
+@media only screen and (max-width: 1024px)
+{
+.content-section-span
+{
+      width: 100%;
+      height: 100px;   
+}      
+.content-section-span
+.container
+{                
+      max-width: 100%;
+}
+.content-section-span
+.span-box
+{
+      width: 100%;
+      height: 60px;      
+      margin-top: 15px;
+}
+.content-section-span
+h5
+{          
+      font-size: 12px;            
+      padding-left: 10px;
+}
+.content-section-span
+p
+{                
+      font-size: 12px;      
+      padding-left: 10px;      
+}
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1910px) and (orientation: landscape) 
+{
+.content-section-span
+.span-box
+{
+      width: 40%;
+      height: 70px;
+}
+}
+
+
+
+/* контент хэсэг цагилбар */
+@media only screen and (max-width: 1024px)
+{
+.content-section-timeline
+{
+      margin-top: 10px;
+}      
+.content-section-timeline
+.container
+{
+      max-width: 100%;
+}
+.content-section-timeline
+.timeline-box
+{    
+      width: 100%;
+      height: 170vh; 
+}
+.content-section-timeline
+.timeline-item 
+{     
+      margin-top: 15px;      
+      padding-left: 15px;      
+}
+.content-section-timeline
+.timeline-article
+{
+      padding-bottom: 20px;
+}
+.content-section-timeline
+p
+{
+      width: 100%;
+      font-size: 12px;
+}
+.content-section-timeline
+.timeline-list
+.timeline-span:after 
+{      
+      
+      height: 120px;
+}
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1910px) and (orientation: landscape) 
+{
+.content-section-timeline
+{
+      margin-top: 10px;
+}
+.content-section-timeline
+.timeline-box
+{    
+      width: 100%;
+      height: auto;
+}
+}
+
+
+
+/* контент хэсэг үнэ */
+@media only screen and (max-width: 1024px)
+{
+.content-section-rate
+.container
+{
+      height: 200px;
+      max-width: 95%;
+}      
+.content-section-rate
+.rate-container
+{         
+      max-width: 95%;
+}
+.content-section-rate
+.rate-box
+{
+      width: 100%;
+      height: auto;
+}
+.content-section-rate
+.item-padding
+{
+      padding-left: 5px;
+}
+.content-section-rate
+.svg-right
+{      
+      right: 0;
+}
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1910px) and (orientation: landscape) 
+{
+.content-section-rate
+.container
+{
+      max-width: 90%;
+}
+.content-section-rate
+.rate-container
+{          
+      max-width: 100%;      
+}
+.content-section-rate
+.rate-box
+{
+      width: 55%;      
+}
+.content-section-rate
+.svg-left
+{      
+      left: -5px;           
+}
+.content-section-rate
+.svg-right
+{      
+      right: 45%; 
+}
+}
+
+
+
+/*контент хэсэг дүүргэх */
+@media only screen and (max-width: 1024px)
+{
+.content-section-thumb
+{
+      width: 100%;
+      height: 400px;
+}
+.content-section-thumb
+.container
+{      
+      padding-top: 50px;      
+}
+.content-section-thumb
+.thumb-head
+{      
+      font-size: 18px;      
+}
+.content-section-thumb
+.thumb-paragraph
+{           
+      font-size: 12px;      
+      text-align: justify;
+}
+.content-section-thumb
+.thumb-background
+{     
+      width: 60px;
+      height: 60px;
+}
+}
+
+
+
+/* контент хэсэг дэлгэгдэх */
+@media only screen and (max-width: 1024px)
+{
+.content-section-accordion
+{
+      width: 100%;
+      height: auto;
+      margin-left: -20px;
+}
+.content-section-accordion
+.container
+{      
+      max-width: 100%;      
+      padding-top: 10px;
+}
+.content-section-accordion
+.accordion-list
+{
+      width: 100%;            
+}
+.content-section-accordion
+img
+{
+      width: 30px;            
+}
+.content-section-accordion
+.accordion-button
+{
+      width: 100%;                     
+      text-indent: 30px;      
+}
+.content-section-accordion
+span
+{
+      font-size: 14px;        
+      padding-left: 5px;       
+}
+.content-section-accordion
+.accordion-button:after
+{          
+      top: 24px;                      
+      width: 4px;      
+      right: 50px; 
+      height: 4px;       
+      margin-left: 10px;      
+}
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1910px) and (orientation: landscape) 
+{
+.content-section-accordion
+{
+      width: 100%;
+      height: auto;      
+}      
+.content-section-accordion
+.container
+{          
+      padding-top: 20px;
+}
+.content-section-accordion
+span
+{
+      font-size: 14px;              
+}
+.content-section-accordion
+.accordion-button:after
+{          
+      top: 22px;
+      width: 5px;            
+      height: 5px;             
+}
+}
+
+
+
+/* контент хэсэг багана */
+@media only screen and (max-width: 1024px)
+{
+.content-section-column
+{
+      margin-top: 50px;
+}      
+.content-section-column
+.container
+{
+      max-width: 100%;
+}      
+.content-section-column      
+.column-a 
+{
+      width: 100%;
+      float: none;      
+      background-color: #fff;         
+}
+.content-section-column
+.column-a
+h4
+{      
+      font-size: 12px;      
+      padding-top: 15px;  
+      margin-left: 10px;      
+}
+.content-section-column
+.column-a
+h5
+{      
+      font-size: 10px;      
+      padding-left: 10px;    
+}
+.content-section-column
+.column-a
+h6
+{          
+      width: 90%;      
+      font-size: 14px;            
+      line-height: 30px;
+      padding-left: 10px;     
+}
+.content-section-column
+.column-a
+hr
+{
+      width: 20%;
+      margin-left: 10px;    
+}
+.content-section-column
+.column-a
+span
+{      
+      font-size: 10px;      
+      padding-left: 10px;     
+}
+.content-section-column
+.column-b
+{
+      width: 100%;
+      float: none;
+      height: 500px;
+      background-color: #fff;         
+}
+.content-section-column
+.column-b
+h4
+{      
+      font-size: 12px;           
+      padding-top: 15px;  
+      margin-left: 10px; 
+}
+.content-section-column
+.column-b
+h5
+{      
+      font-size: 10px;      
+      padding-left: 10px;    
+}
+.content-section-column
+.column-b
+h6
+{          
+      width: 90%;      
+      font-size: 14px;            
+      line-height: 30px;
+      padding-left: 10px;     
+}
+.content-section-column
+.column-b
+hr
+{
+      width: 20%;
+      margin-left: 10px;    
+}
+.content-section-column
+.column-b
+span
+{      
+      font-size: 10px;      
+      padding-left: 10px;     
+}
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1910px) and (orientation: landscape)
+{   
+.content-section-column      
+.column-a
+{      
+      width: 50%;          
+      height: 500px;
+      padding-top: 50px;
+}
+.content-section-column
+.column-a
+h6
+{          
+      width: 90%;              
+}
+.content-section-column
+.column-b
+{      
+      width: 50%;
+      height: 500px;
+      padding-top: 50px;
+}
+.content-section-column
+.column-b
+h6
+{          
+      width: 90%;        
+}
+}

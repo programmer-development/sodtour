@@ -1,0 +1,380 @@
+/* контент хэсэг толгой */
+@media only screen and (max-width: 1300px) 
+{
+.content-section-header
+{    
+      width: 100%;             
+      height: 50px;      
+      background-color: transparent;
+}
+.content-section-header
+.container
+{           
+      max-width: 100%;      
+}
+.content-section-header
+.header-option 
+.option-button
+{           
+      background-color: #fff; 
+}
+.content-section-header
+.header-option 
+.option-heading
+{
+      color: #222;
+}
+.content-section-header
+.header-option 
+.option-social
+{    
+      width: 50px;      
+      height: 50px;                
+}
+.content-section-header
+.header-img
+{
+     display: none;
+}
+.content-section-header
+.header-arrow
+{
+      width: 10px;             
+}
+.content-section-header
+.header-flag
+{
+      width: 10px;      
+}
+.content-section-header
+.header-icon
+{
+      width: 10px;             
+}
+}
+
+
+
+/* контент хэсэг лого */
+@media only screen and (max-width: 1300px)
+{
+.content-section-logo
+{
+      width: 100%;
+      height: 50px;                 
+}
+.content-section-logo
+.container
+{
+      max-width: 100%;
+}
+.content-section-logo
+.logo-article
+{      
+      z-index: 9;
+      padding-left: 10px; 
+}
+.logo-article
+span 
+{      
+      z-index: 9;
+      font-size: 15px;      
+}
+}
+
+
+
+/* контент хэсэг чиглүүлэгч */
+@media only screen and (max-width: 700px)
+{
+.content-section-navigation
+.section-navigation
+{   
+	border-bottom: 1px solid #eee;	
+}      
+.content-section-navigation	
+.navigation-box 
+{     	  
+      padding-left: 15px;
+      background-color: #fff;
+}    
+.content-section-navigation
+.nav-item:after
+{
+      display: none;
+}
+.content-section-navigation
+.nav-item::before 
+{
+      content: "";	
+	left: 0;
+      top: 15px;
+	width: 10px;
+	height: 1px;	  
+	border: none;
+      display: block;
+      position: absolute;
+	background-color: #999;		
+}
+.content-section-navigation
+.nav-item
+.nav-link
+{
+      margin: 0 0px;      
+}
+.content-section-navigation
+.navbar-toggler 
+{	  	  
+	margin-left: -12px;
+}
+.content-section-navigation
+.dropdown-toggle::after 
+{
+      content: "";	  
+	top: 10px;	  
+	width: 1px;
+      left: -22px;
+	height: 11px;
+      border: none;
+	display: block;	  
+      position: absolute;
+	background-color: #999;	
+		
+	transition: all 200ms linear;
+}
+.content-section-navigation
+.dropdown-toggle[aria-expanded="true"]::after
+{	  
+	opacity: 0;
+      transform: rotate(90deg);
+}
+.content-section-navigation
+.dropdown-menu 
+{	
+	box-shadow: none;
+      padding: 0 !important;
+      background-color: #fff;
+
+	transition: all 200ms linear;
+}
+.dropdown-item 
+{	  
+	color: #222;
+	font-size: 12px;	  	  	  	       
+}
+.content-section-navigation
+.dropdown-toggle[aria-expanded="true"] + .dropdown-menu 
+{
+	margin-top: 10px !important;
+	margin-bottom: 20px !important;
+}
+}
+
+
+
+/* контент хэсэг тааг */
+@media only screen and (max-width: 700px) 
+{
+.content-section-tag
+{
+      z-index: -1;
+      width: 100%;   
+      height: 100px;                             
+}    
+.content-section-tag
+.section-tag
+{
+      width: 100%;             
+      display: block;            
+      padding-left: 0;          
+      padding-top: 20px;      
+}  
+.content-section-tag
+.section-tag
+.tag-box 
+img
+{
+      width: 18px;
+      height: 18px;      
+}
+.content-section-tag
+.section-tag
+.tag-box 
+.active
+{     
+      font-size: 10px;         	               
+}
+.content-section-tag
+.section-tag 
+a 
+{           
+      font-size: 10px;      
+}
+}
+
+
+
+/* контент хэсэг цэг */
+@media only screen and (max-width: 700px) 
+{
+.content-section-divider
+.divider-a
+{
+      width: 100%;   
+      height: 100px;               
+      padding-top: 10px;                  
+}
+.content-section-divider
+.divider-a
+.divider-box
+{      
+      max-width: 100%; 
+}
+.content-section-divider
+.divider-a
+.box-button
+img
+{
+      width: 20px;            
+}
+.content-section-divider
+.divider-a
+.box-button
+a 
+{          
+      font-size: 10px;     
+}
+}
+@media only screen and (max-width: 1300px) 
+{
+.content-section-divider
+.divider-b
+{
+      width: 100%;   
+      height: 100px;               
+      padding-top: 20px;            
+}
+.content-section-divider
+.divider-b
+.divider-box
+{      
+      max-width: 90%; 
+}
+.content-section-divider
+.divider-b
+.box-button
+img
+{
+      width: 20px;            
+}
+.content-section-divider
+.divider-b
+.box-button
+a 
+{          
+      font-size: 10px;     
+}
+}
+@media only screen and (max-width: 1300px) 
+{
+.content-section-divider
+.divider-c
+{
+      width: 100%;   
+      height: 100px;               
+      padding-top: 20px;            
+}
+.content-section-divider
+.divider-c
+.divider-box
+{      
+      max-width: 50%; 
+}
+.content-section-divider
+.divider-c
+.box-button
+img
+{
+      width: 20px;            
+}
+.content-section-divider
+.divider-c
+.box-button
+a 
+{          
+      font-size: 10px;     
+}
+}
+@media only screen and (max-width: 1300px) 
+{
+.content-section-divider
+.divider-d
+{
+      width: 100%;   
+      height: 100px;               
+      padding-top: 10px;                  
+}
+.content-section-divider
+.divider-d
+.divider-box
+{      
+      max-width: 100%; 
+}
+.content-section-divider
+.divider-d
+.box-button
+img
+{
+      width: 20px;            
+}
+.content-section-divider
+.divider-d
+.box-button
+a 
+{          
+      font-size: 10px;     
+}
+}
+
+
+
+/* контент хэсэг хөл */
+@media only screen and (max-width: 700px)
+{
+.content-section-footer
+.footer-box     
+{
+      width: 100%;
+      height: 250px;      
+}    
+.content-section-footer    
+.footer-item 
+{      
+      max-width: 100%;
+      padding-top: 20px;
+      flex-direction: column;
+}
+.content-section-footer
+.footer-address
+{
+      padding: 10px;      
+}    
+.content-section-footer
+h4 
+{            
+      font-size: 14px;
+}
+.content-section-footer
+p
+{                
+      padding: 0;     
+      font-size: 12px;     
+}
+.content-section-footer
+img
+{
+      width: 100px;      
+}
+}
+
+

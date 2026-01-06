@@ -1,0 +1,41 @@
+/* контент хэсэг хайрцаг */
+@-webkit-keyframes circle
+{
+to 
+{
+      transform: rotate(-360deg);
+}
+}
+@keyframes circle
+{
+to 
+{
+      transform: rotate(-360deg);
+}
+}
+
+
+
+/* контент хэсэг карт */
+@-webkit-keyframes card
+{
+from 
+{
+      background-position-x: 0;
+}
+to 
+{
+      background-position-x: -2956px;
+}
+}
+@keyframes card
+{
+from 
+{
+      background-position-x: 0;
+}
+to 
+{
+      background-position-x: -2956px;
+}
+}

@@ -1,0 +1,538 @@
+/* контент хэсэг мадал */
+@media only screen and (max-width: 1024px)
+{
+.content-section-modal
+{
+      width: 100%;
+      height: auto;      
+}
+.content-section-modal
+.modal-box
+{      
+      height: auto;
+      max-width: 100%;      
+}
+.content-section-modal
+.modal-item
+{      
+      height: 65px;
+}
+.content-section-modal
+img
+{          
+      width: 20px;
+      margin: 0 5px;
+}
+}
+
+
+
+/* контент хэсэг гарчиг */
+@media only screen and (max-width: 1024px) 
+{
+.content-section-context
+.context-box
+{
+      width: 100%;
+      height: auto;
+      margin-top: 20px;      
+}    
+.content-section-context   
+.context-item
+{
+      width: 100%;
+      height: 90vh;
+}    
+.content-section-context
+.context-item
+h5
+{
+      width: 90%;
+      font-size: 30px;
+}
+.content-section-context
+span
+{      
+      font-size: 15px;
+}
+.content-section-context
+.context-item
+p
+{
+      width: 90%;      
+      font-size: 14px;
+      margin-top: 20px;
+}
+.content-section-context
+.context-padding
+{ 
+      height: 10px;
+}
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1800px) and (orientation:landscape) 
+{
+.content-section-context
+.context-box
+{
+      width: 100%;
+      height: auto;
+      margin-top: 20px;      
+}    
+.content-section-context
+.context-item
+{      
+      height: 90vh;    
+}
+.content-section-context
+.context-item
+h5
+{
+      width: 80%;
+      font-size: 30px;      
+}
+.content-section-context
+.context-item
+p
+{
+      width: 80%;
+}
+.content-section-context
+.context-padding
+{ 
+      height: 20px;
+}
+}
+
+
+
+/* контент хэсэг хайрцаг */
+@media only screen and (max-width: 1024px)
+{
+.content-section-grid
+{
+      width: 100%;
+      height: auto;      
+}      
+.content-section-grid      
+.grid-container
+{      
+      width: 100%;
+      height: auto;      
+}      
+.content-section-grid
+.grid-box 
+{
+      flex: 0 0 60%;
+}
+.content-section-grid
+.item-a 
+{      
+      transform: translateY(0%);
+      transform: translateX(-40%);
+}
+.content-section-grid
+.item-b
+{      
+      transform: translateY(0%);
+      transform: translateX(-20%);
+}
+.content-section-grid
+.item-c 
+{      
+      transform: translateY(0%);
+      transform: translateX(-40%);    
+}
+.content-section-grid
+.item-d
+{      
+      transform: translateY(0%);
+      transform: translateX(-20%);
+}
+.content-section-grid
+img 
+{
+      width: 90%;
+}
+}
+
+
+
+/* контент хэсэг калиндар */
+@media only screen and (max-width: 1024px)
+{
+.content-section-calendar
+{
+      width: 100%;
+      height: 280vh;      
+}      
+.content-section-calendar
+.calendar-head
+{
+      font-size: 12px;
+      text-align: left;
+      padding-left: 20px;
+}
+.content-section-calendar
+.container
+{      
+      max-width: 100%;
+      padding-top: 10px; 
+}
+.content-section-calendar
+.calendar-box 
+{      
+      width: 100%;
+      height: 120px;
+}
+.content-section-calendar
+ul 
+{     
+      width: 100%;
+      height: 100%;
+}
+.content-section-calendar
+li 
+{        
+      width: 100%;
+      height: 70px;      
+}
+.content-section-calendar
+.active
+{
+      margin-left: 5px;      
+}
+.content-section-calendar
+h5
+{            
+      font-size: 18px;      
+      text-align: left;
+      padding-left: 10px;    
+}
+.content-section-calendar
+span
+{      
+      font-size: 15px;     
+      text-transform: uppercase;
+}
+.content-section-calendar
+h6
+{         
+      font-size: 11px;
+      font-weight: 500;      
+}
+.content-section-calendar
+p
+{      
+      font-size: 11px;
+      font-weight: 500;      
+}
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1910px) and (orientation: landscape) 
+{
+.content-section-calendar
+{
+      width: 100%;      
+}     
+.content-section-calendar
+.container
+{                
+      padding-top: 0;
+      max-width: 100%;
+} 
+.content-section-calendar
+.calendar-box 
+{      
+      width: 100%;
+      height: 120px;
+}
+.content-section-calendar
+li 
+{          
+      width: 100px;
+      height: 100px;
+      margin-left: 2px;      
+}
+}
+
+
+
+/* контент хэсэг флекс */
+@media only screen and (max-width: 1024px)
+{
+.content-section-flex
+{
+      width: 100%;            
+      height: 500px;
+}
+.content-section-flex
+.flex-container
+{           
+      max-width: 90%;
+}
+.content-section-flex
+.flex-box
+{      
+      height: 400px;
+}
+.content-section-flex
+.flex-a img:nth-of-type(1) 
+{
+	width: 150px; 
+	height: auto;      
+}
+.content-section-flex
+.flex-a img:nth-of-type(2) 
+{
+	width: 120px;
+	height: auto;	  
+}
+.content-section-flex
+.flex-a img:nth-of-type(3) 
+{
+	width: 180px;
+	height: auto;      
+}
+.content-section-flex
+.flex-a img:nth-of-type(4) 
+{
+	width: 160px;
+	height: auto;	  
+}
+.content-section-flex
+.flex-a img:nth-of-type(5) 
+{
+	width: 180px;
+	height: auto;	  
+}
+.content-section-flex
+.flex-a img:nth-of-type(6) 
+{
+	width: 100px;
+	height: auto;	  
+}
+.content-section-flex
+.flex-b img:nth-of-type(1) 
+{
+	width: 120px; 
+	height: auto;	
+}
+.content-section-flex
+.flex-b img:nth-of-type(2) 
+{
+	width: 100px;
+	height: auto;	
+}
+.content-section-flex
+.flex-b img:nth-of-type(3) 
+{
+	width: 190px;
+	height: auto;      
+}
+.content-section-flex
+.flex-b img:nth-of-type(4) 
+{
+	width: 200px;
+	height: auto;	  
+}
+.content-section-flex
+.flex-b img:nth-of-type(5) 
+{
+	width: 170px;
+	height: auto;	
+}
+.content-section-flex
+.flex-b img:nth-of-type(6) 
+{
+	width: 100px;
+      height: auto;	
+}
+.content-section-flex
+.flex-c img:nth-of-type(1) 
+{
+	width: 150px; 
+	height: auto;      
+}
+.content-section-flex
+.flex-c img:nth-of-type(2) 
+{
+	width: 120px;
+	height: auto;	  
+}
+.content-section-flex
+.flex-c img:nth-of-type(3) 
+{
+	width: 180px;
+	height: auto;      
+}
+.content-section-flex
+.flex-c img:nth-of-type(4) 
+{
+	width: 160px;
+	height: auto;	  
+}
+.content-section-flex
+.flex-c img:nth-of-type(5) 
+{
+	width: 180px;
+	height: auto;	  
+}
+.content-section-flex
+.flex-c img:nth-of-type(6) 
+{
+	width: 100px;
+	height: auto;	  
+}
+.content-section-flex
+.arrow-next
+{      
+      left: -10px;      
+}
+.content-section-flex
+.arrow-prev
+{      
+      right: -10px;      
+}
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1910px) and (orientation: landscape)
+{
+.content-section-flex
+{
+      width: 100%;            
+      height: auto;
+}
+.content-section-flex
+.flex-container
+{                 
+      max-width: 80%;
+}
+.content-section-flex
+.flex-thumbnail
+{	     
+	width: 100vh;
+      height: 400px;
+      grid-gap: 40px;      
+      column-gap: .1%;      
+      grid-column-gap: 0.1%;      
+}
+}
+
+
+
+/* контент хэсэг сэдэв */
+@media only screen and (max-width: 1024px) 
+{
+.content-section-column
+{
+      width: 100%;
+      height: auto;      
+}   
+.content-section-column
+.calendar-head
+{          
+      font-size: 18px;
+      text-align: left;
+      padding-left: 20px;
+}
+.content-section-column
+.calendar-span
+{                 
+      font-size: 14px;
+}   
+.content-section-column
+.column-box
+{          
+      padding-top: 10px;
+}
+.content-section-column
+.column-a
+{
+      width: 100%;
+      height: auto;
+      padding-top: 20px;
+}    
+.content-section-column
+.column-a
+h5
+{
+      width: 90%;      
+      float: none;      
+      margin: auto;
+      font-size: 10px;
+}
+.content-section-column
+.column-a
+p
+{
+      width: 90%;
+      float: none;
+      margin: auto;
+}
+.content-section-column
+.padding-a
+{ 
+      height: 40px;
+}
+.content-section-column
+.column-b
+{
+      width: 100%;
+      height: auto;
+      padding-top: 50px;
+}
+.content-section-column
+.column-b
+h5
+{
+      width: 90%;      
+      float: none;      
+      margin: auto;
+      font-size: 10px;
+}
+.content-section-column
+.column-b
+p
+{
+      width: 90%;  
+}
+.content-section-column
+.padding-b
+{      
+      height: 40px;
+}
+.content-section-column
+.column-c
+{
+      width: 100%;
+      height: auto;
+      padding-top: 50px;
+}
+.content-section-column
+.column-c
+h5
+{
+      width: 90%;      
+      float: none;     
+      margin: auto;
+      font-size: 10px;      
+}
+.content-section-column
+.column-c
+p
+{
+      width: 90%;
+      margin: auto;
+}
+.content-section-column
+.padding-c
+{      
+      height: 40px;
+}
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1910px) and (orientation: landscape)
+{
+.content-section-column
+.calendar-head
+{          
+      padding-top: 50px;
+}
+}

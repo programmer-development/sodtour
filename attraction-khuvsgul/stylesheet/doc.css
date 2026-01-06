@@ -1,0 +1,57 @@
+/* контент хэсэг параллакс */
+.content-section-parallax
+.parallax-box 
+{
+      width: 99%;       
+      margin: auto;
+      height: 100vh;
+      display: flex;      
+      overflow: hidden;        
+      position: relative;
+      border-radius: 5px;
+      align-items: center;      
+      justify-content: center;
+}
+.content-section-parallax
+.parallax-background
+{
+      z-index: 25;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      position: absolute;
+      background-size: cover;
+      background-repeat: no-repeat;		  
+      background-image: url('assets/img/parallax/parallax-background-02.jpg');
+
+      transition: all 1.5s ease; 
+}
+.content-section-parallax
+.parallax-background:hover
+{          
+      transform: scale(0.95);   
+}
+.content-section-parallax
+.parallax-article
+{
+      z-index: 50;        
+      position: relative;       
+}
+.content-section-parallax
+.article-head
+{
+      color: #fff;
+      font-size: 50px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+}
+.content-section-parallax
+.article-span
+{
+      color: #fff;
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: 1px;      
+}

@@ -1,0 +1,52 @@
+@keyframes circle-animate
+{
+from, 10% 
+{      
+      opacity: 0;
+      stroke-dashoffset: 293;
+}
+to 
+{
+      stroke-dashoffset: 10;
+      opacity: 1;
+}
+}
+@-webkit-keyframes circle-animate
+{
+from, 10% 
+{      
+      opacity: 0;
+      stroke-dashoffset: 293;
+}
+to 
+{
+      stroke-dashoffset: 10;
+      opacity: 1;
+}    
+}
+@keyframes background-animate
+{
+from, 40%
+{      
+      top: 55%;
+      opacity: 0;
+}
+to 
+{      
+      top: 50%;
+      opacity: 1;
+}
+}
+@-webkit-keyframes background-animate
+{
+from, 40%
+{      
+      top: 55%;
+      opacity: 0;
+}
+to 
+{      
+      top: 50%;
+      opacity: 1;
+}
+}

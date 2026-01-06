@@ -1,0 +1,375 @@
+/* контент хэсэг багана */
+.content-section-column:after 
+{
+      content: "";
+      clear: both;
+      display: table;            
+}
+.content-section-column
+.column-a
+{      
+      width: 50%;
+      float: left;
+      height: 900px;      
+}
+.content-section-column
+.column-a
+img
+{     
+      float: right; 
+      width: 400px;
+      height: 800px;      
+      margin-top: 50px;
+      object-fit: cover;            
+      border-radius: 5px 0 0 5px;
+      background-repeat: no-repeat;            
+}
+.content-section-column
+.column-b
+{      
+      width: 50%;
+      float: left;      
+      height: 800px;      
+}
+.content-section-column
+.column-b
+.column-article
+{
+      width: 400px;
+      height: 800px;   
+      margin-top: 50px;               
+      border-radius: 0 5px 5px 0;                 
+      background-color: #2d2926;
+}
+.content-section-column
+.column-b
+h5
+{
+      width: 80%;      
+      color: #fff;
+      font-size: 30px;
+      font-weight: 800;      
+      padding-top: 50px;
+      padding-left: 50px;      
+}
+.content-section-column
+.column-b
+p
+{      
+      width: 80%;
+      color: #eee;
+      font-size: 14px;
+      line-height: 30px;
+      padding-top: 10px;
+      padding-left: 50px;
+}
+.content-section-column
+.column-b
+ul
+{
+      padding-left: 50px;
+}
+.content-section-column
+.column-b
+li
+{
+      width: 80%;
+      color: #fff;
+      font-size: 14px;
+      margin-left: 10px;
+      line-height: 30px;
+}
+
+
+
+/* контент хэсэг таб */
+.content-section-tab
+{      
+      width: 100%;
+      height: 800px;
+      text-align: center;      
+}
+.tab-box:after 
+{
+      content: "";
+      clear: both;
+      display: table;
+}
+.content-section-tab
+.container
+{
+      max-width: 100%;
+      margin-top: 100px;
+}
+.content-section-tab
+.tab-box
+{              
+      height: 80px;
+      max-width: 100%;
+      border-radius: 5px;
+}
+.content-section-tab
+.tab-box input[type=radio] 
+{
+      display: none;
+}
+.content-section-tab
+.tab-button
+{                 
+      height: 80px;            
+      padding: 20px;
+      font-size: 14px;
+      color: #2d2926;
+      font-weight: 700;      
+}
+.content-section-tab
+.tab-button:hover
+{      
+      opacity: 0.7;
+      cursor: pointer;
+}
+.content-section-tab
+label 
+{          
+      width: 160px;            
+      margin-right: 5px;
+      background-color: #f7f7f7;
+      border-radius: 24px 24px 0px 0px;      
+      box-shadow: 0px -8px 16px rgba(25, 25, 25, 0.01);
+
+      transition: background-color 150ms ease-in-out;
+}
+.content-section-tab
+[id^=box]:checked + label 
+{          
+      color: #fff;      
+      background-color: #2d2926;
+}
+.content-section-tab
+.tab-item
+{      
+      width: 100%;            
+      display: none;      
+}
+.content-section-tab
+.tab-head
+{          
+      font-size: 12px;      
+      margin-top: 20px;
+      font-weight: normal;            
+}
+.content-section-tab
+.tab-head
+span
+{
+      font-size: 12px;
+      font-weight: 700;      
+}
+.content-section-tab
+.tab-paragraph
+{          
+      font-size: 10px;      
+      margin-top: 10px;
+      color: #423e3b;      
+      font-weight: bold;            
+      border-radius: 10px;
+      display: inline-block;      
+      text-transform: uppercase;  
+      background-color: #d9e6e2;
+}
+.content-section-tab
+.item-a
+{     
+      width: 100%;
+      height: auto;      
+}
+.content-section-tab
+.item-b
+{ 
+      width: 100%;
+      height: auto;    
+}
+.content-section-tab
+.item-c
+{ 
+      width: 100%;
+      height: auto;        
+}
+.content-section-tab
+p
+{
+      padding: 10px;
+}
+.content-section-tab
+#box-a:checked ~ #tab-a
+{
+      display: block;
+}
+.content-section-tab
+#box-b:checked ~ #tab-b
+{
+      display: block;
+}
+.content-section-tab
+#box-c:checked ~ #tab-c 
+{
+      display: block;
+}
+.content-section-tab
+.tab-list
+{      
+      height: auto;
+      margin: 0 auto;
+      max-width: 80%;
+      margin-top: 15px;
+}
+.content-section-tab
+.tab-list
+h6
+{
+      margin: 0;      
+      color: #222;
+      font-size: 11px;
+      font-weight: 800;   
+      text-align: justify;
+      letter-spacing: 1px;
+      text-transform: uppercase;      
+}
+.content-section-tab
+.tab-list
+h6::before
+{
+      content: "-";
+}
+.content-section-tab
+.tab-list
+a
+{
+      color: #104e8b;
+      font-weight: 700;
+}
+.content-section-tab
+.tab-list
+span
+{
+      font-size: 12px;
+      font-weight: 500;      
+      letter-spacing: 0;      
+      text-transform: capitalize;
+}
+.content-section-tab
+.tab-list
+p
+{               
+      font-size: 14px;
+      padding-top: 25px;
+      text-align: justify;
+      text-transform: none;      
+}
+
+
+
+/* контент хэсэг хөл */
+.content-section-foot
+.foot-box 
+{
+      width: 100%;
+      height: 400px;    
+      background-color: #fff;
+}
+.content-section-foot
+.container
+{
+      max-width: 80%;
+}
+.content-section-foot
+.foot-item
+{                
+      display: flex;      
+      margin: 0 auto;
+      max-width: 100%;
+      justify-content: space-between;
+}
+.content-section-foot
+.foot-address
+{      
+      padding: 100px 0;
+} 
+.content-section-foot
+h4
+{      
+      font-size: 14px;
+      color: #212529;
+      font-weight: 800;
+      pointer-events: none;
+}
+.content-section-foot
+p
+{           
+      padding: 5px 0;       
+      font-size: 15px;      
+      color: #212529;     
+      font-weight: 500;
+      line-height: 25px;      
+}
+.content-section-foot
+span
+{          
+      color: #777;
+      font-size: 14px;      
+      line-height: 40px;      
+}
+.content-section-foot
+img
+{
+      width: 140px;
+      height: auto;
+}
+.content-section-foot
+hr
+{
+      width: 100%;
+      height: 0.1px;
+      margin: 0 auto;
+      background-color: #ddd;
+}
+.content-section-foot
+svg
+{      
+      width: 15px;      
+      margin-left: 5px;
+      margin-bottom: 4px;
+
+      transition: 0.5s all ease;
+      -moz-transition: .5s all ease;
+      -webkit-transition: .5s all ease;
+
+      animation: footer-sun 10s linear infinite;
+}
+.content-section-foot
+.circle-a 
+{
+      fill: #212529;
+      transition: fill 1s;
+}
+.content-section-foot
+.circle-b
+{
+      fill: #212529;
+}
+.content-section-foot
+.circle-c
+{
+      fill: #212529;
+}
+@keyframes footer-sun
+{
+from 
+{
+      transform: rotate(0deg);
+}
+to 
+{
+      transform: rotate(360deg);
+}
+}

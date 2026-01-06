@@ -1,0 +1,180 @@
+/* контент хэсэг параллакс */
+.content-section-parallax
+.parallax-box 
+{
+      width: 100%;      
+      height: 80vh;
+      display: flex;      
+      overflow: hidden;        
+      position: relative;      
+      align-items: center;      
+      justify-content: center;
+      background-image: url('assets/img/parallax/parallax-popographic-02.jpg');
+}
+.content-section-parallax
+.parallax-grid
+{
+      z-index: 25;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;      
+      position: absolute;
+      transition: all 1.5s ease; 
+}
+.content-section-parallax
+.parallax-grid:hover
+{          
+      transform: scale(0.95);   
+}
+.content-section-parallax
+.parallax-grid
+{
+      width: 1024px;
+      height: 300px;
+      margin: 0 auto;            
+}
+.content-section-parallax
+.parallax-item
+{
+      width: 25%;      
+      float: left;
+      position: relative; 
+  
+      transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+      -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.content-section-parallax
+.parallax-item:hover 
+{
+      z-index: 10;      
+      transform: scale(1.1, 1.1);
+      -webkit-transform: scale(1.1, 1.1);      
+}
+.content-section-parallax
+.parallax-item:hover:after 
+{
+      opacity: 1;
+}
+.content-section-parallax
+.parallax-item:after 
+{
+      content: "";       
+      top: 0;
+      left: 0;
+      opacity: 0;
+      width: 100%;
+      height: 100%;      
+      position: absolute;
+      border-radius: 5px;
+      box-shadow: 0 10px 10px -10px #212529;      
+      
+      transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+      -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.content-section-parallax
+.grid-item
+{     
+      width: 100%;
+      display: block;
+      overflow: hidden;
+      position: relative;
+      transform: translateZ(0px);
+      -webkit-transform: translateZ(0px);
+}
+.content-section-parallax
+.grid-item
+img 
+{
+      width: 100%;
+      height: 500px;
+      display: block;
+      object-fit: cover;
+      border-radius: 5px;
+}
+.content-section-parallax
+.grid-item:before 
+{
+      content: "";
+      z-index: 6;      
+      width: 100%;
+      height: 100%;
+      display: block;     
+      position: absolute;
+      /*
+      background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.9) 100%);      
+      */
+}
+.content-section-parallax
+.grid-a
+{      
+      margin-top: 50px;
+}
+.content-section-parallax
+.grid-b
+{
+      margin-top: 10px;
+      padding-left: 5px;
+}
+.content-section-parallax
+.grid-c
+{
+      margin-top: 80px;
+      padding-left: 5px;
+}
+.content-section-parallax
+.grid-d
+{
+      margin-top: 1px;
+      padding-left: 5px;
+}
+.content-section-parallax
+.parallax-item.parallax-motion
+img 
+{      
+      transform: scale(1);      
+      -o-transform: scale(1);
+      -ms-transform: scale(1);
+      -moz-transform: scale(1);
+      -webkit-transform: scale(1);
+      
+      transition: all 2s cubic-bezier(0.23, 1, 0.12, 1) 0s;
+      -webkit-transition: all 2s cubic-bezier(0.21, 1, 0.12, 1) 0s;
+}
+.content-section-parallax
+.parallax-item.parallax-motion:hover 
+img 
+{     
+      transform: scale(1.3);
+      -o-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      -moz-transform: scale(1.3);
+      -webkit-transform: scale(1.3);
+
+      transition: all 10s cubic-bezier(0.21, 1, 0.12, 1) 0s;
+      -webkit-transition: all 10s cubic-bezier(0.21, 1, 0.12, 1) 0s;   
+}
+.content-section-parallax
+.parallax-article
+{
+      z-index: 50;        
+      bottom: 50px;
+      position: absolute;
+}
+.content-section-parallax
+.article-head      
+{
+      font-size: 50px;
+      color: #212529;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+}
+.content-section-parallax
+.article-span
+{      
+      font-size: 14px;
+      color: #212529;
+      font-weight: 800;
+      letter-spacing: 1px;      
+}

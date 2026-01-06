@@ -1,0 +1,95 @@
+/* контент хэсэг толгой */
+@media only screen and (max-width: 1300px) 
+{
+.content-section-top
+{    
+      width: 100%;             
+      height: 50px;      
+      background-color: transparent;
+}
+.content-section-top
+.container
+{           
+      max-width: 100%;      
+}
+.content-section-top
+.header-option 
+.option-button
+{           
+      background-color: #fff; 
+}
+.content-section-top
+.header-option 
+.option-heading
+{
+      color: #222;
+}
+.content-section-top
+.header-option 
+.option-social
+{    
+      width: 50px;      
+      height: 50px;                
+}
+.content-section-top
+.header-img
+{
+     display: none;
+}
+.content-section-top
+.header-arrow
+{
+      width: 10px;             
+}
+.content-section-top
+.header-flag
+{
+      width: 10px;      
+}
+.content-section-top
+.header-icon
+{
+      width: 10px;             
+}
+}
+
+
+
+/* контент хэсэг хөл */
+@media only screen and (max-width: 700px)
+{
+.content-section-foot
+.foot-box     
+{
+      width: 100%;
+      height: 300px;      
+}    
+.content-section-foot    
+.foot-item 
+{      
+      max-width: 100%;
+      padding-top: 20px;
+      flex-direction: column;
+}
+.content-section-foot
+.foot-address
+{
+      padding: 10px;      
+}    
+.content-section-foot
+h4 
+{            
+      font-size: 14px;
+}
+.content-section-foot
+p
+{                
+      padding: 0;     
+      font-size: 12px;     
+}
+.content-section-foot
+img
+{
+      width: 100px;      
+}
+}

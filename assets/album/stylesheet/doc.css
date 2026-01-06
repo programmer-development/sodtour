@@ -1,0 +1,696 @@
+/* контент хэсэг параллакс */
+.content-section-parallax
+.parallax-box
+{
+      width: 100%;      
+      height: 100vh;
+      display: grid;
+      margin-top: 50px;
+      place-items: center;  
+}
+.content-section-parallax
+.parallax-head
+{
+      z-index: 10;      
+      top: 50%;
+      left: 45%;         
+      color: #212529;      
+      position: absolute;      
+      position: sticky;              
+      transform: translate(-50%, -50%);      
+}
+.content-section-parallax
+h5
+{      
+      font-size: 60px;
+      font-weight: 800;                 
+      text-transform: uppercase;
+}
+.content-section-parallax
+.parallax-item
+{ 
+      top: -5%;
+      left: -5%;
+      width: 100%;
+      height: 100%;      
+      display: grid;  
+      grid-template-rows: repeat(50, 2%);
+      grid-template-columns: repeat(50, 2%);
+}
+.content-section-parallax
+.parallax-background
+{
+      opacity: 1;
+      position: relative;
+}
+.content-section-parallax
+img 
+{      
+      top: 0;
+      left: 0;
+      opacity: 0;
+      width: 100%;
+      height: 100%;       
+      object-fit: cover;            
+      position: absolute;
+      border-radius: 5px;     
+      will-change: transform;      
+}
+.content-section-parallax
+.parallax-a 
+{
+     grid-area: 10/1/36/8;
+}
+.content-section-parallax
+.parallax-b 
+{
+     grid-area: 1/21/17/30;
+}
+.content-section-parallax
+.parallax-c
+{
+     grid-area: 1/36/14/42;
+}
+.content-section-parallax
+.parallax-d 
+{
+     grid-area: 10/10/32/17;
+}
+.content-section-parallax
+.parallax-e
+{
+     grid-area: 20/35/35/45;
+}
+.content-section-parallax
+.parallax-f
+{
+     grid-area: 20/46/28/51;
+}
+.content-section-parallax
+.parallax-g
+{
+     grid-area: 43/1/51/10;
+}
+.content-section-parallax
+.parallax-h
+{
+     grid-area: 38/14/51/19;
+}
+.content-section-parallax
+.parallax-k
+{
+     grid-area: 40/26/51/32;
+}
+.content-section-parallax
+.parallax-l
+{
+     grid-area: 37/39/48/47;
+}
+
+
+
+/* контент хэсэг гарчиг */
+.article-box
+{ 
+      width: 100%;
+      height: 100px;      
+      background-color: #fafafa;
+}
+.article-box.active
+{ 
+      width: 100%;
+      height: 100px;      
+      background-color: #fff;
+}
+.article-box
+h5                       
+{             
+      font-size: 10px;  
+      font-weight: 700;
+      padding-top: 50px;      
+      letter-spacing: 2px;             
+      text-transform: uppercase;
+}
+.article-box
+.box-head
+{ 
+      display: table;              
+      white-space: nowrap;        
+}
+.article-box
+.box-head:before, 
+.article-box
+.box-head:after         
+{ 
+      content: '';
+      top: 5px;  
+      width: 100%;  
+      position: relative;  
+      display: table-cell;  
+      border-top: 1px solid #888; 
+}
+.article-box
+.box-head:before                       
+{
+       right: 20px;
+}
+.article-box
+.box-line:before                    
+{ 
+      width: 50px; 
+}
+.article-box
+.box-line:after                    
+{         
+      width: 0%;
+      content: none;
+}
+
+
+
+/* контент хэсэг хөзөр */
+.content-section-card
+{
+      width: 100%;
+      margin-top: 100px;
+}
+.content-section-card.container-a
+{
+      height: 600px;
+      background-color: #043263;
+}
+.content-section-card
+.card-box
+{      
+      display: flex;
+      padding: 15px;      
+      cursor: pointer;
+      overflow-x: auto;      
+      padding-top: 100px;
+      position: relative;            
+      will-change: transform;
+      justify-content: flex-start;      
+      scroll-snap-type: x mandatory;      
+}
+.content-section-card
+.card-box::-webkit-scrollbar 
+{           
+      height: 0px;
+      background-color: #eee;
+}
+.content-section-card
+.card-box::-webkit-scrollbar-thumb 
+{
+      background: #6d6d6d;
+}
+.content-section-card
+.card-box.active 
+{      
+      cursor: grabbing;
+      scroll-snap-type: none;
+}
+.content-section-card
+.card-box
+.card-item
+{
+      opacity: 1;      
+      min-width: 200px;
+      margin-right: 16px;
+      border-radius: 10px;            
+      scroll-snap-align: start;      
+      
+      transition: opacity 200ms;
+}
+.content-section-card
+.card-box.active 
+.card-item 
+{
+      opacity: 0.7;
+}
+.content-section-card
+.card-box
+.card-item
+.card-background
+{
+      height: 0;
+      width: 100%;
+      height: 350px;
+      padding-top: 100%;           
+      border-radius: 5px;
+}
+.content-section-card
+.card-box
+.card-item
+.card-background
+{     
+      transition: all .5s ease-in-out;  
+}
+.content-section-card
+.card-box
+.card-item
+.card-background:hover
+{
+      filter: gray;            
+      transform: scale(1.02);      
+      -webkit-filter: grayscale(1); 
+}
+.content-section-card
+.box-1
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-01.jpg');
+}
+.content-section-card
+.box-2
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-02.jpg');
+}
+.content-section-card
+.box-3
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-03.jpg');
+}
+.content-section-card
+.box-4
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-04.jpg');
+}
+.content-section-card
+.box-5
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-05.jpg');
+}
+.content-section-card
+.box-6
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-06.jpg');
+}
+.content-section-card
+.box-7
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-07.jpg');
+}
+.content-section-card
+.box-8
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-08.jpg');
+}
+.content-section-card
+.box-9
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-09.jpg');
+}
+.content-section-card
+.box-10
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-10.jpg');
+}
+.content-section-card
+.box-11
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-11.jpg');
+}
+.content-section-card
+.box-12
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-12.jpg');
+}
+.content-section-card
+.box-13
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-13.jpg');
+}
+.content-section-card
+.box-14
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-14.jpg');
+}
+.content-section-card
+.box-15
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-15.jpg');
+}
+.content-section-card
+.card-box
+.card-item
+.card-paragraph
+{      
+      height: 50px;      
+      color: #fff;
+      font-size: 12px;
+      font-weight: 800;
+      padding-top: 10px;
+      text-align: center;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+}
+.content-section-card
+.card-scroll
+{        
+      max-width: none;
+      position: relative;      
+}
+.content-section-card
+.card-scroll::before, 
+.content-section-card
+.card-scroll::after 
+{
+      content: "";
+      z-index: 1;      
+      top: 16px;
+      bottom: 16px;
+      display: block;
+      position: absolute;
+
+      transition: opacity 0.2s;
+}
+.content-section-card
+.card-scroll::before 
+{
+      left: 0;  
+}
+.content-section-card
+.card-scroll::after 
+{
+      right: 0;  
+}
+
+
+
+/* контент хэсэг хөзөрүүд */
+.content-section-cards
+{
+      width: 100%;
+}
+.content-section-cards.container-b
+{
+      height: 500px;      
+      background-color: #fafafa;
+}
+.content-section-cards
+.cards-box
+{      
+      display: flex;
+      padding: 15px;      
+      cursor: pointer;
+      overflow-x: auto;            
+      padding-top: 50px;
+      position: relative;      
+      will-change: transform;
+      justify-content: flex-start;      
+      scroll-snap-type: x mandatory;      
+}
+.content-section-cards
+.cards-box::-webkit-scrollbar 
+{      
+      height: 2px;
+      background-color: #eee;
+}
+.content-section-cards
+.cards-box::-webkit-scrollbar-thumb 
+{
+      background: #043263;
+}
+.content-section-cards
+.cards-box.active 
+{      
+      cursor: grabbing;
+      scroll-snap-type: none;
+}
+.content-section-cards
+.cards-box
+.cards-item
+{
+      opacity: 1;      
+      min-width: 220px;
+      margin-right: 16px;
+      border-radius: 10px;            
+      scroll-snap-align: start;      
+      
+      transition: opacity 200ms;
+}
+.content-section-cards
+.cards-box.active 
+.cards-item 
+{
+      opacity: 0.7;
+}
+.content-section-cards
+.cards-box
+.cards-item
+.cards-background
+{
+      height: 0;
+      width: 100%;
+      height: 350px;
+      padding-top: 100%;           
+      border-radius: 5px;
+}
+.content-section-cards
+.box-1
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-16.jpg');
+}
+.content-section-cards
+.box-2
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-17.jpg');
+}
+.content-section-cards
+.box-3
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-18.jpg');
+}
+.content-section-cards
+.box-4
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-19.jpg');
+}
+.content-section-cards
+.box-5
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-20.jpg');
+}
+.content-section-cards
+.box-6
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-21.jpg');
+}
+.content-section-cards
+.box-7
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-22.jpg');
+}
+.content-section-cards
+.box-8
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-23.jpg');
+}
+.content-section-cards
+.box-9
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-24.jpg');
+}
+.content-section-cards
+.box-10
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-25.jpg');
+}
+.content-section-cards
+.box-11
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-26.jpg');
+}
+.content-section-cards
+.box-12
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-27.jpg');
+}
+.content-section-cards
+.box-13
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-28.jpg');
+}
+.content-section-cards
+.box-14
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-29.jpg');
+}
+.content-section-cards
+.box-15
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-30.jpg');
+}
+.content-section-cards
+.box-16
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-31.jpg');
+}
+.content-section-cards
+.box-17
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-32.jpg');
+}
+.content-section-cards
+.box-18
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-33.jpg');
+}
+.content-section-cards
+.box-19
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-34.jpg');
+}
+.content-section-cards
+.box-20
+{      
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url('assets/img/cards/card-35.jpg');
+}
+.content-section-cards
+.cards-box
+.cards-item
+.cards-paragraph
+{      
+      height: 50px;      
+      font-size: 12px;
+      color:#212529;
+      font-weight: 800;
+      padding-top: 10px;
+      text-align: center;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+}
+.content-section-card
+.card-scroll
+{        
+      max-width: none;
+      position: relative;      
+}
+.content-section-cards
+.cards-scroll::before, 
+.content-section-cards
+.cards-scroll::after 
+{
+      content: "";
+      z-index: 1;      
+      top: 16px;
+      bottom: 16px;
+      display: block;
+      position: absolute;
+
+      transition: opacity 0.2s;
+}
+.content-section-cards
+.cards-scroll::before 
+{
+      left: 0;  
+}
+.content-section-cards
+.cards-scroll::after 
+{
+      right: 0;  
+}

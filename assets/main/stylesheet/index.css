@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+
+
+*
+{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;  
+}
+html, 
+body 
+{
+      width: 100%;
+      height: 100vh;
+      background-color: #fafafa;
+}
+
+
+
+/* контент хэсэг унших */
+.content-section-loader
+.loader-box
+{
+      z-index: 10;            
+      width: 100%;
+      height: 100%;
+      position: fixed;            
+}
+.content-section-loader
+.loader-span
+{     
+      z-index: 11;      
+      top: 50%;
+      left: 48%;      
+      width: 80px;
+      height: 80px;      
+      display: block;      
+      position: absolute;      
+      border-radius: 50%;            
+      border: 1px solid transparent;
+      border-top-color: #777;
+      
+      animation: loader-circle 1.7s linear infinite;    
+}
+.content-section-loader
+.load-progress
+{
+      z-index: 10;
+      top: 0;
+      width: 100%;
+      height: 100vh;
+      position: fixed;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;      
+}
+.loaded 
+.loader-span
+{
+      opacity: 0;
+      transition: all 0.3s ease-out;
+}
+.loaded 
+.loader-box
+{
+      visibility: hidden;
+      transform: translateY(-100%);
+      transition: all 0.3s 1s ease-out;
+}
+@keyframes loader-circle
+{
+0% 
+{      
+      transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+}
+100% 
+{      
+      transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+}
+}
+@-moz-keyframes loader-circle
+{
+0% 
+{
+      -moz-transform: rotate(0deg);
+}
+100% 
+{
+      -moz-transform: rotate(360deg);
+}
+}
+@-webkit-keyframes loader-circle
+{
+0% 
+{
+      -webkit-transform: rotate(0deg);
+}
+100% 
+{
+      -webkit-transform: rotate(360deg);
+}
+}
+
+
+
+/* контент хэсэг хайрцаг */
+.content-section-box
+.box-circle
+{      
+      width: 100%;
+      height: 100vh;
+      display: grid;      
+      grid-gap: 30px;
+      place-content: center;
+      background-color: #fafafa;
+}
+.content-section-box
+.button-circle
+{      
+      width: 120px;
+      height: 120px;            
+      padding-top: 10px;
+      letter-spacing: 3px;      
+      text-decoration: none;            
+      text-transform: uppercase;     
+      font: 300 16px/1.4 "arial";
+}
+.content-section-box
+.button-svg
+{
+      width: 100%;
+      height: auto;         
+      fill: #2d2926;      
+      font-weight: 700;      
+      stroke: #2d2926;
+      stroke-width: 0.8px;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transform-box: fill-box;
+}
+.content-section-box
+.box-icon
+{
+      stroke-width: 1.2px;
+      transform-origin: 50% 50%;
+      transition: transform 0.15s cubic-bezier(0.32, 0, 0.67, 0);
+}
+.content-section-box
+.button-circle:hover 
+.box-icon
+{
+      transform: scale(1.1);
+      transition: transform 0.3s cubic-bezier(0.33, 1, 0.68, 1);
+}
+.content-section-box
+.button-head
+{      
+      transform-origin: 50% 50%;
+      animation: circle normal infinite 20s linear;
+      -webkit-animation: circle normal infinite 20s linear;
+}
+.content-section-box
+.button-circle:hover 
+.button-head
+{      
+      animation-play-state: paused;
+      -webkit-animation-play-state: paused;
+}
+
+
+
+
+/* контент хэсэг карт */
+.content-section-card
+.card-container
+{     
+      top: 65%; 
+      width: 100%;
+      overflow: hidden;
+      position: absolute;            
+}
+.content-section-card
+.card-container 
+.card-box
+{
+      width: 100%;
+      height: 140px;      
+      background-size: cover;
+      background-image: url('assets/img/card/card-white.jpg');
+
+      animation: card 50s linear infinite;
+      -webkit-animation: card 50s linear infinite;
+}
+
+
+
+/* контент хэсэг хөл */
+.content-section-copyright
+{
+      bottom: 0;
+      width: 100%;
+      height: 100px;      
+      position: absolute;
+      background-color: #fafafa;
+}
+.content-section-copyright
+.copyright-article
+{
+      text-align: center;
+}
+.content-section-copyright
+.article-paragraph
+{      
+      font-size: 10px;      
+      color: #2d2926;            
+      padding-top: 20px;
+      letter-spacing: 4px;
+      text-transform: capitalize;      
+      font-family: 'Merriweather Sans', sans-serif;
+}
+.content-section-copyright
+.paragraph-a
+{      
+      overflow: hidden;
+      display: inline-block;
+}

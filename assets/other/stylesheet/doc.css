@@ -1,0 +1,245 @@
+html,
+body 
+{
+      overflow-x: hidden;      
+}
+
+
+
+/* контент хэсэг толгой */
+.content-section-top
+{    
+      width: 100%;
+      height: 50px;
+      background-color: transparent;     
+}
+.content-section-top
+.container
+{      
+      width: 100%;
+      height: 50px;         
+      max-width: 100%;       
+}
+.content-section-top
+.header-option 
+.option-button
+{     
+      right: 0; 
+      border: 0;
+      outline: 0;              
+      width: 80px; 
+      float: right;      
+      height: 30px;      
+      border-radius: 0 0 5px 5px;
+      background-color: #fafafa;
+}
+.content-section-top
+.header-option 
+.option-social
+{
+      border: 0;
+      outline: 0;        
+      width: 50px;
+      float: right;                  
+      height: 30px;                
+      background-color: transparent;                 
+}
+.content-section-top
+.header-option 
+.option-social
+i
+{
+      display: none;
+}
+.content-section-top
+.header-option 
+.option-social
+i:hover
+{
+      color: #888;
+}
+.content-section-top
+.header-option 
+.option-heading
+{           
+      cursor: pointer;      
+      font-size: 10px;            
+      color: #212529;      
+      font-weight: 700;      
+      letter-spacing: 2px;  
+      text-transform: capitalize;
+}
+.content-section-top
+.header-option 
+.option-button:focus .option-list, 
+.content-section-header
+.header-option 
+.option-button:active .option-list
+{      
+      opacity: 1;
+      visibility: visible;
+      transform: translate(0, 20px);
+}
+.content-section-top
+.header-option 
+.option-button
+.option-list
+{           
+      opacity: 0;             
+      width: 80px;             
+      margin-top: 50px; 
+      text-align: left;            
+      visibility: hidden;               
+
+      transition: 0.3s ease;
+}
+.content-section-top
+.header-option 
+.option-button
+.option-list
+a 
+{      
+      display: block;      
+      padding: 10px 0;      
+      font-size: 10px;      
+      margin-top: 10px;      
+      color: #212529;
+      font-weight: 700;
+      padding-left: 15px;
+      letter-spacing: 1px;
+      text-decoration: none;      
+      text-transform: capitalize;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.content-section-top
+.header-option 
+.option-button
+.option-list
+a:hover
+{
+      color: #888;
+}
+.content-section-top
+.option-address
+{                 	
+      color: #777;
+      font-size: 10px;      	  
+      font-weight: 700;      
+      padding-left: 53px;    
+      white-space: nowrap;
+      letter-spacing: 1px;   
+      text-decoration: none;                                 
+}
+.content-section-top
+.header-img
+{     
+      width: 40px;  
+      height: 30px;    
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: url("assets/icon/header/header-01.png");
+}
+
+
+
+/* контент хэсэг хөл */
+.content-section-foot
+.foot-box 
+{
+      width: 100%;
+      height: 400px;    
+      background-color: #fff;
+}
+.content-section-foot
+.foot-item
+{                
+      display: flex;      
+      margin: 0 auto;
+      max-width: 95%;            
+      justify-content: space-between;
+}
+.content-section-foot
+.foot-address
+{      
+      padding: 100px 0;            
+} 
+.content-section-foot
+h4 
+{      
+      font-size: 14px;
+      color: #212529;
+      font-weight: 800;
+      pointer-events: none;
+}
+.content-section-foot
+p
+{           
+      padding: 5px 0;       
+      font-size: 15px;      
+      color: #212529;     
+      font-weight: 500;
+      line-height: 25px;      
+}
+.content-section-foot
+span
+{          
+      color: #777;
+      font-size: 14px;      
+      line-height: 40px;      
+}
+.content-section-foot
+.foot-address
+p
+{                 
+      color: #777;
+      font-size: 14px;
+      font-weight: 700;
+}
+.content-section-foot
+hr
+{
+      width: 98%;
+      height: 0.1px;
+      margin: 0 auto;
+      background-color: #ddd;
+}
+.content-section-foot
+svg
+{      
+      width: 15px;      
+      margin-left: 5px;
+      margin-bottom: 4px;
+
+      transition: 0.5s all ease;
+      -moz-transition: .5s all ease;
+      -webkit-transition: .5s all ease;
+
+      animation: footer-sun 10s linear infinite;
+}
+.content-section-foot
+.circle-a 
+{
+      fill: #212529;
+      transition: fill 1s;
+}
+.content-section-foot
+.circle-b
+{
+      fill: #212529;
+}
+.content-section-foot
+.circle-c
+{
+      fill: #212529;
+}
+@keyframes footer-sun
+{
+from 
+{
+      transform: rotate(0deg);
+}
+to 
+{
+      transform: rotate(360deg);
+}
+}

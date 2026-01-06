@@ -1,0 +1,258 @@
+/* контент хэсэг толгой */
+@media only screen and (max-width: 1024px)
+{
+.content-section-top
+{    
+      width: 100%;             
+      height: 50px;      
+      background-color: transparent;
+}
+.content-section-top
+.container
+{           
+      max-width: 100%;      
+}
+.content-section-top
+.header-option 
+.option-button
+{           
+      background-color: #fff; 
+}
+.content-section-top
+.header-option 
+.option-heading
+{
+      color: #222;
+}
+.content-section-top
+.header-option 
+.option-social
+{    
+      width: 50px;      
+      height: 50px;                
+}
+.content-section-top
+.header-img
+{
+     display: none;
+}
+.content-section-top
+.header-arrow
+{
+      width: 10px;             
+}
+.content-section-top
+.header-flag
+{
+      width: 10px;      
+}
+.content-section-top
+.header-icon
+{
+      width: 10px;             
+}
+}
+
+
+
+/* контент хэсэг параллакс */
+@media only screen and (max-width: 1024px)
+{
+.content-section-parallax
+.parallax-box
+{
+      width: 100%;      
+      height: 100vh;      
+}
+.content-section-parallax
+.parallax-head
+{      
+      left: 20%;                     
+}
+.content-section-parallax
+h5
+{      
+      font-size: 40px;      
+}
+.content-section-parallax
+img 
+{      
+      width: 100%;
+      height: 100%;           
+}
+.content-section-parallax
+.parallax-a 
+{
+      grid-area: 10/1/36/15;
+}
+.content-section-parallax
+.parallax-b 
+{
+      grid-area: 1/21/17/40;
+}
+.content-section-parallax
+.parallax-c
+{
+      grid-area: 30/36/14/50;
+}
+.content-section-parallax
+.parallax-d 
+{
+      grid-area: 10/10/32/30;
+}
+.content-section-parallax
+.parallax-e
+{
+      grid-area: 20/15/35/50;
+}
+.content-section-parallax
+.parallax-f
+{
+      grid-area: 25/26/40/40;
+}
+.content-section-parallax
+.parallax-g
+{
+      grid-area: 43/1/51/15;
+}
+.content-section-parallax
+.parallax-h
+{
+      grid-area: 38/14/51/30;
+}
+.content-section-parallax
+.parallax-k
+{
+      grid-area: 40/26/51/40;
+}
+.content-section-parallax
+.parallax-l
+{
+      grid-area: 37/39/48/55;
+}
+}
+
+
+
+/* контент хэсэг гарчиг */
+@media only screen and (max-width: 1024px)
+{
+.article-box
+{ 
+      width: 100%;            
+}
+.article-box.active
+{ 
+      width: 100%;
+      height: 40px;                    
+}
+.article-box
+h5                       
+{             
+      font-size: 10px;        
+      padding-top: 10px;            
+      padding-left: 10px;
+}
+.article-box
+.box-head:before, 
+.article-box
+.box-head:after         
+{ 
+      content: '';
+      top: 6px;  
+      width: 10%;  
+      position: relative;  
+      display: table-cell;  
+      border-top: 1px solid #888; 
+}
+.article-box
+.box-head:before                       
+{
+      right: 20px;
+}
+.article-box
+.box-line:before                    
+{ 
+      width: 10px; 
+}   
+}
+
+
+
+/* контент хэсэг хөзөр */
+@media only screen and (max-width: 1024px)
+{
+.content-section-card
+{
+      width: 100%;      
+}    
+.content-section-card.container-a
+{
+      height: 600px;      
+      background-color: #fafafa;
+}  
+.content-section-card
+.card-box
+{          
+      padding: 5px;         
+      padding-top: 10px;     
+}
+.content-section-card
+.card-box
+.card-item
+.card-background
+{      
+      width: 100%;            
+      height: 400px;      
+}
+.content-section-card
+.card-box
+.card-item
+.card-paragraph
+{      
+      height: auto;       
+      font-size: 10px;
+      color: #222222;
+      padding-top: 15px;      
+}
+}
+
+
+
+/* контент хэсэг хөзөрүүд */
+@media only screen and (max-width: 1024px)
+{
+.content-section-cards
+{
+      width: 100%; 
+}      
+.content-section-cards.container-b
+{
+      height: 600px;      
+      background-color: #fafafa;
+}
+.content-section-cards
+.cards-box
+{          
+      padding: 5px;         
+      padding-top: 10px;     
+}
+.content-section-cards
+.cards-box
+.cards-item
+.cards-background
+{      
+      width: 100%;            
+      height: 400px;
+}
+.content-section-cards
+.cards-box
+.cards-item
+.cards-paragraph
+{      
+      height: auto;       
+      font-size: 10px;
+      color: #222222;
+      padding-top: 15px;      
+}
+}

@@ -1,0 +1,132 @@
+/* контент хэсэг унших */
+@media only screen and (max-width: 1024px)
+{
+.content-section-loader
+.loader-box
+{     
+      width: 100%;
+      height: 100vh; 
+}
+.content-section-loader
+.loader-span
+{           
+      top: 45%;
+      left: 45%;
+      width: 50px;
+      height: 50px;            
+}
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1910px) and (orientation: landscape)
+{
+.content-section-loader
+.loader-span
+{          
+      width: 30px;
+      height: 30px;            
+}
+}
+
+
+
+/* контент хэсэг хайрцаг */
+@media only screen and (max-width: 1024px)
+{
+.content-section-box
+.box-circle
+{      
+      width: 100%;
+      height: 80vh;
+}
+.content-section-box
+.button-circle
+{      
+      width: 140px;
+      height: 140px;
+      letter-spacing: 5px;
+      font: 300 12px/10.4 "arial";
+}
+.content-section-box
+.button-svg
+{          
+      fill: #bbb;      
+      stroke: #222;
+      font-weight: 500;
+}
+.content-section-box
+.box-icon
+{
+      stroke-width: 4px;  
+}
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1910px) and (orientation: landscape)
+{
+.content-section-box
+.button-circle
+{      
+      width: 90px;
+      height: 90px;                  
+}
+}
+
+
+
+/* контент хэсэг карт */
+@media only screen and (max-width: 1024px)
+{
+.content-section-card
+.card-container
+{     
+      top: 60%;
+      width: 100%;            
+}
+}
+.content-section-card
+.card-container 
+.card-box
+{
+      width: 100%;
+      height: 80px;
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1910px) and (orientation: landscape)
+{
+.content-section-card
+.card-container 
+.card-box
+{
+      width: 100%;
+      height: 100px;            
+}
+}
+
+
+
+/* контент хэсэг хөл */
+@media only screen and (max-width: 1024px)
+{
+.content-section-copyright
+{      
+      width: 100%;
+      height: 30px;       
+}
+.content-section-copyright
+.copyright-article
+{      
+      padding-left: 10px;
+}
+.content-section-copyright
+.article-paragraph
+{            
+      font-size: 8px;      
+      padding-top: 10px;
+      letter-spacing: 2px;      
+}
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1910px) and (orientation: landscape)
+{
+.content-section-copyright
+.article-paragraph
+{            
+      font-size: 7px;      
+      padding-top: 15px;      
+}
+}

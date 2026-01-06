@@ -1,0 +1,542 @@
+/* контент хэсэг дүрс */
+.content-section-icon
+{
+      width: 100%;
+      margin: auto;
+      height: 100px;      
+      border-radius: 10px;            
+      background-color: transparent;
+}
+.content-section-icon
+.container
+{
+      max-width: 90%;      
+}
+.content-section-icon
+.column-item
+{      
+      height: 150px;
+      display: flex;     
+      flex-wrap: wrap;
+      list-style: none;      
+      padding-top: 15px;      
+}
+.content-section-icon
+.column-span
+{          
+      height: 50px;
+      display: flex;     
+      max-width: 300px;      
+      margin-left: 10px;
+      padding: 10px 50px;            
+      border-radius: 10px;
+      background-color: #fafafa;      
+}
+.content-section-icon
+img
+{         
+      width: 30px;
+      height: 30px;      
+      margin-right: 15px;
+      background-repeat: no-repeat;      
+}
+.content-section-icon
+.column-head
+{
+      color: #000;
+      font-size: 12px;
+      text-align: left;
+      font-weight: 700;      
+}
+.content-section-icon
+.column-paragraph
+{
+      color: #777;
+      font-size: 12px;       
+      text-align: left;
+      font-weight: 500;      
+}
+
+
+
+/* контент хэсэг спан */
+.content-section-span
+{
+      width: 100%;
+      height: auto;
+}
+.content-section-span
+.container
+{                
+      max-width: 90%;
+}
+.content-section-span
+.span-box
+{
+      width: 100%;
+      height: 100px;      
+      border-radius: 10px;
+      background-color: transparent;
+}
+.content-section-span
+h5
+{          
+      font-size: 14px;
+      color: #212529;
+      padding-top: 20px;
+      font-weight: bold;         
+}
+.content-section-span
+p
+{                
+      color: #888;      
+      font-size: 13px;
+      font-weight: normal;
+      text-transform: lowercase; 
+}
+
+
+
+/* контент хэсэг хөзөр */
+.content-section-card
+.card-container
+{
+      width: 100%;    
+      height: 250px;
+      display: flex;         
+      overflow: hidden;            
+      align-items: center;     
+      justify-content: center;      
+      background-color: #fff;
+}
+.content-section-card
+.card-box
+{
+      z-index: 1;      
+      width: 90%;
+      cursor: grab;            
+      height: 250px;
+      overflow: hidden;      
+      position: relative;
+      cursor: -webkit-grab;
+}
+.content-section-card
+.card-box.is-dragging 
+{      
+      cursor: grabbing;
+      cursor: -webkit-grabbing;
+}
+.content-section-card
+.card-item
+{
+      z-index: 1;      
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;      
+      position: absolute;           
+      counter-reset: count; 
+}
+.content-section-card
+.card-background 
+{    
+      z-index: 1;
+      top: 0;
+      left: 0;
+      width: 130px;
+      height: 200px;
+      padding: 0 10px;
+      overflow: hidden;
+      position: absolute;
+      border-radius: 5px;
+      counter-increment: count;
+}
+.content-section-card
+.card-background:nth-child(n+16):before 
+{
+      content: counter(count);
+}
+.content-section-card
+.card-background
+figure 
+{      
+      z-index: 1;
+      padding: 0;
+      width: 100%;
+      height: 100%;      
+      border: none;
+      outline: none;
+      display: block;
+      cursor: pointer;
+      overflow: hidden;                 
+      position: absolute;
+      border-radius: 5px;
+      pointer-events: none;
+      transform-origin: center;
+
+      user-select: none;            
+      -ms-user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;    
+}
+.content-section-card
+.card-background
+figure 
+img 
+{      
+      z-index: 1;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      vertical-align: middle;
+      transform-origin: center;
+
+      object-fit: cover;
+      -o-object-fit: cover;      
+}
+
+
+
+/* контент хэсэг сэдэв */
+.content-section-context
+{      
+      width: 100%;
+      height: 500px;
+      background-color: #fff;
+}
+.content-section-context
+.container
+{      
+      max-width: 90%;
+      padding-top: 50px;
+}
+.content-section-context
+h5
+{                  
+      color: #bbb;
+      font-size: 14px;
+      font-weight: 500;      
+      letter-spacing: 1px;
+      text-transform: uppercase;
+}
+.content-section-context
+p
+{      
+      width: 70%;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 25px;
+}
+.content-section-context
+span
+{
+      color: #212529;
+      font-weight: 800;
+}
+
+
+
+/* контент хэсэг гарчиг */
+.content-section-article
+{
+      width: 100%;
+      height: auto;
+}
+.content-section-article
+.container
+{
+      max-width: 90%;
+      border-radius: 4px;
+      background-color: #1e2e5b;
+}
+.content-section-article
+.article-context
+{      
+      width: 100%;
+      height: 1000px;
+      
+      overflow-y: scroll;      
+      -webkit-overflow-scrolling: touch;
+}
+.content-section-article
+.article-context::-webkit-scrollbar 
+{      
+      height: 0;
+      width: 2px;          
+}
+.content-section-article
+.article-context::-webkit-scrollbar-track 
+{
+      background-color: #222;
+}
+.content-section-article
+.article-context::-webkit-scrollbar-thumb 
+{           
+      background-color: #fff;
+}
+.content-section-article
+h4
+{      
+      color: #fff;
+      font-size: 20px;
+      font-weight: 800;      
+      padding-top: 10px;      
+}
+.content-section-article
+.article-a
+{      
+      width: 10%;
+      float: left;
+      height: 500px;
+}
+.content-section-article
+.article-a
+img
+{      
+      width: 400px;
+      float: right;
+      height: 400px;
+      margin-top: 10px;
+      object-fit: cover;          
+      padding-left: 100px;
+      border-radius: 5px 0 0 5px;
+      background-repeat: no-repeat;
+}
+.content-section-article
+.article-b
+{      
+      width: 90%;      
+      float: left;
+      height: 500px;
+}
+.content-section-article
+.article-b
+img
+{                 
+      margin: 5px; 
+      width: 400px;
+      height: 400px;
+      margin-top: 10px;
+      object-fit: cover;
+      border-radius: 0 5px 5px 0;
+      background-repeat: no-repeat;
+}
+.content-section-article
+.article-c
+{
+      width: 100%;
+      height: 200px;            
+      border-radius: 5px;
+      background-size: cover;
+      background-repeat: no-repeat;      
+      background-color: transparent;      
+}
+.content-section-article
+.article-d
+{
+      width: 100%;      
+}
+.content-section-article
+h5
+{
+      color: #fff;
+      font-size: 15px;     
+      margin-top: 10px;
+      font-weight: 800;   
+      padding-left: 10px;
+      letter-spacing: 1px;      
+      text-transform: uppercase;      
+}
+.content-section-article
+p
+{
+      color: #fff;
+      font-size: 14px;
+      font-weight: 500;      
+      line-height: 25px;      
+      padding-left: 10px;      
+}
+.content-section-article
+hr
+{
+      width: 50%;
+      margin-left: 10px;
+      background-color: #fff;
+}
+
+
+
+
+/* контент хэсэг тэмдэглэл */
+.content-section-quote
+{
+      width: 100%;
+      height: 300px;
+      margin-top: 50px;
+      background-color: #fff;
+}
+.content-section-quote
+.quote-container
+{      
+      margin: auto;
+      max-width: 90%;
+      position: relative;      
+}
+.content-section-quote
+.quote-box
+{
+      width: 100%;
+      height: 220px;
+      display: flex;            
+      overflow-x: auto;      
+      flex-wrap: nowrap;
+      scrollbar-width: thin;
+      -webkit-overflow-scrolling: touch;
+}
+.content-section-quote
+.quote-box::-webkit-scrollbar 
+{      
+      width: 0;
+      height: 0;
+      background-color: #eee;
+}
+.content-section-quote
+.quote-box::-webkit-scrollbar-thumb 
+{
+      background-color: #c7c7c7;
+}
+.content-section-quote
+.quote-item
+{      
+      width: 100%;      
+      height: auto;
+      margin-left: 5px;            
+
+      transition: all 0.3s;               
+}
+.content-section-quote
+.quote-item:hover 
+{      
+      padding-left: 5px;
+}
+.content-section-quote
+.quote-item:last-child 
+{
+      margin-right: 15px;
+}
+.content-section-quote
+.quote-item:last-child::after 
+{
+      content: ' ';
+      display: inline-block;
+}
+.content-section-quote
+.quote-item:hover 
+{      
+      outline: none;
+      user-select: none;
+}
+.content-section-quote
+.quote-card
+{	  	  
+	width: 220px;
+	height: 220px;
+	padding: 16px 32px;      
+      border-left: 1px solid #eee;
+}
+.content-section-quote
+.quote-background
+{
+	display: flex;
+}
+.content-section-quote
+img
+{      
+	width: 35px;
+	height: 35px;
+	margin-right: 1rem;
+	border-radius: 50%;	  
+}
+.content-section-quote
+.quote-title
+{
+	display: flex;
+      flex-direction: column;
+      justify-content: center;
+}
+.content-section-quote
+h5
+{
+	margin: 0;	
+	font-size: 12px;
+      color: #212529;
+	font-weight: 800;	  
+}
+.content-section-quote
+span
+{
+	color: #999;      
+      font-size: 10px;      
+}
+.content-section-quote
+h6
+{	
+	font-size: 12px;
+      color: #212529;
+      margin-top: 10px;
+      font-weight: 500;      
+}
+.content-section-quote
+.quote-article
+p
+{     
+	color:#999;      
+	font-size: 12px;
+	font-weight: 500; 
+      padding-top: 5px;      
+}
+.content-section-quote
+.button-quote
+{      
+      width: 30px;
+      height: 30px;
+      margin: auto;          
+      display: flex;      
+      cursor: pointer;
+      color: #212529;
+      border: 0px solid;
+      position: absolute;
+      border-radius: 50%;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+      box-shadow: 0 5px 20px #00000026;                
+}
+.content-section-quote
+.button-quote:hover
+{      
+      background-color: #f6f8fb;
+}
+.content-section-quote
+.button-quote
+svg
+{
+      width: 8px;
+}
+.content-section-quote
+.button-next
+{
+      top: 100px;
+      left: -30px;
+      bottom: 100px;
+}
+.content-section-quote
+.button-prev
+{
+      top: 100px;  
+      right: -30px;
+      bottom: 100px;
+}

@@ -1,0 +1,44 @@
+/* контент хэсэг параллакс */
+@media only screen and (max-width: 1300px) 
+{
+.content-section-parallax
+.parallax-box
+{      
+      width: 98%;
+      height: 50vh;            
+}
+.content-section-parallax
+.parallax-background
+img
+{
+      width: 100%;
+      height: 50vh;            
+}
+.content-section-parallax
+.box-article
+{      
+      top: 10px;                        
+}
+.content-section-parallax
+.box-article
+.box-head
+{
+      display: none;
+}
+.content-section-parallax
+.parallax-article
+{
+      text-align: left;
+}
+.content-section-parallax
+.article-head
+{      
+      font-size: 30px; 
+      letter-spacing: 0;            
+}
+.content-section-parallax
+.article-span
+{      
+      font-size: 12px;       
+}
+}
